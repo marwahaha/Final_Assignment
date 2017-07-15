@@ -1,6 +1,7 @@
 # SNPFinder Pipeline #
 
 **** Warning**: This script is designed to use 8 processors.
+
 **** Warning**: This script starts from the very begining. And will take longer the first time it runs as it is creating the indexing files which will be used as it is run subsequently for other samples. There are checks in place to make sure it is not duplicating the most time consuming steps
 
 ## About the project ##
