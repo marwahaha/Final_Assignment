@@ -96,9 +96,10 @@ When viral infection strikes one of the organisms first lines of defense are the
 ```
 bowtie2-build GCA_001624185.1_129S1_SvImJ_v1_genomic.fna --threads 8 musRef
 ```
-    	* GCA_001624185.1_129S1_SvImJ_v1_genomic.fna - is the fasta file
-    	* \-- threads 8 - uses 8 procesors to complete the task
-    	* musRef - is the output file names
+	* GCA_001624185.1_129S1_SvImJ_v1_genomic.fna - is the fasta file
+	* \-- threads 8 - uses 8 procesors to complete the task
+	* musRef - is the output file names
+	
 * Step 2: Align the fastq sequence files with the indexed reference genome created in step 1.
 ```
 bowtie2 -x musRef -1 SRR3168572_1.fastq  -2 SRR3168572_2.fastq  -S mus_aligned --thread 8
