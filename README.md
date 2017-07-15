@@ -1,7 +1,7 @@
 # SNPFinder Pipeline #
 
-#####**** Warning**: This script is designed to use 8 processors.
-#####**** Warning**: This script starts from the very begining. And will take longer the first time it runs as it is creating the indexing files which will be used as it is run subsequently for other samples. There are checks in place to make sure it is not duplicating the most time consuming steps
+**** Warning**: This script is designed to use 8 processors.
+**** Warning**: This script starts from the very begining. And will take longer the first time it runs as it is creating the indexing files which will be used as it is run subsequently for other samples. There are checks in place to make sure it is not duplicating the most time consuming steps
 
 ## About the project ##
 When viral infection strikes one of the organisms first lines of defense are the interferon induced restriction factors. These proteins interfere with several steps of the viral infection cycle including viral entry, replication of viral DNA, viral particle formation, viral budding and viral particle release. These genes have evolved to combat diverse viruses and inhibit their ability to replicate, propagate, and cause disease. The Barr lab studies disruption to the function of restriction factors that can arise due to a single base pair substitution in the DNA (*single nucleotide polymorphisms * **SNP**) resulting in non-synonoymous mutations or region deletions. These DNA mutations result in a loss of function for the restriction factors, which significantly influences disease progression. Our lab aims to develop a system whereby a profile of the mutations in the restriction factors of an individual can be correlated to disease progression. This is a pilot project to determine if we can identify the polymorphisms in a set of publicly available mouse genomes and scale it up to human datasets at a later time.
