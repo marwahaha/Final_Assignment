@@ -166,7 +166,7 @@ samtools mpileup -uf GCA_001624185.1_129S1_SvImJ_v1_genomic.fna chrom_filtered.s
 
 ## Final Output File description ##
 * SNPFinder_results.csv
-	- Gene - contains the abreviated name of the gene of interest (ie. Hect and RLD containing protein 6 will be HERC6) 
+	- Gene - contains the abbreviated name of the gene of interest (ie. Hect and RLD containing protein 6 will be HERC6) 
     - Chromosome Position - position of the SNP on the chromosome
     - Reference Allele - the allele present in the reference genome
     - Alternative Alleles - the alternate allele present
